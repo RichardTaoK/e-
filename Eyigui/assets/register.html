@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <script type="text/javascript">
+    function register(){
+		var username=document.getElementById("username").value;
+		var userpwd=document.getElementById("userpwd").value;
+		var useremail=document.getElementById("useremail").value;
+		var userphone=document.getElementById("userphone").value;
+		var usergender=document.getElementById("usergender").value;
+		/*window.user.setUserName(username);
+		window.user.setUserPwd(userpwd);
+		window.user.setUserEmail(useremail);
+		window.user.setUserGender(usergender);
+		window.user.setUserTelPhoneNumber(userphone);
+		window.user.setUserID("");
+		
+		
+		var jsonstring=window.writejson.getJson(user);*/
+		window.register1.goToRegister(username,userpwd,useremail,userphone,usergender);
+		
+		/*if(result!='f'){
+			alert("注册成功");
+			window.location.href="denglu.html";
+			}
+			else{
+				alert("注册失败");
+				}*/
+		}
+    
+    </script>
+</head>
+    <body>
+    <div style="width: 320px;height:40px; background: #3FC; font-size: 22px; font-weight: bold;text-align: center">注册页面</div>
+   <form action="#" method="post" >
+    <input style="width:320px;height:40px;" type="text" name="username"
+    placeholder="输入账号,最多20个字符" id="username"/>
+    <input style="width:320px;height:40px;" type="text" name="userpwd"
+    placeholder="输入密码，最多20个字符" id="userpwd"/>
+    <input style="width:320px;height:40px;" type="text" name="useremail"
+    placeholder="邮箱" id="useremail"/><input style="width:320px;height:40px;" type="text" name="userphone"
+    placeholder="电话，最多十一位" id="userphone"/><input style="width:320px;height:40px;" type="text" name="usergender"
+    placeholder="性别，男还是女，只能一个字符" id="usergender"/>
+    <br/>
+    <input style="background-color:#3FF;width:320px;height:40px" type="button" value="注册" id="btr" onClick="register()"/>
+    </form>
+     </body>
+</html>

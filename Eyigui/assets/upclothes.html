@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    </head>
+    <body >
+    <form action="http://159bw07957.iask.in/EClothesClient/UpServlet" method="post" enctype="multipart/form-data" >
+    <div >
+    衣服类型
+    <select id="t" name="clothestype" style="width:300px;background-color:#CFC;font-size:18px;">
+    <option value="西装" name="">西装</option>
+    <option value="T恤" name="">T恤</option>
+    <option value="长袖" name="">长袖</option>
+    <option value="短裤" name="">短裤</option>
+    <option value="长裤" name="">长裤</option>
+    <option value="薄外套" name="">薄外套</option>
+    <option value="厚外套" name="">厚外套</option>
+    </select>
+    </div>
+    <div>
+    衣服季节
+    <select id="s" name="clothesseason" style="width:300px;background-color:#CFC;font-size:18px;">
+    <option value="春秋" name="">春秋</option>
+    <option value="夏" name="">夏</option>
+    <option value="冬" name="">冬</option>
+
+    </select>
+    </div>
+    <div>
+    衣服颜色
+    <select id="c" name="clothescolor" style="width:300px;background-color:#CFC;font-size:18px;">
+    <option value="白" name="">白</option>
+    <option value="黑" name="">黑</option>
+    <option value="蓝" name="">蓝</option>
+    <option value="灰" name="">灰</option>
+    <option value="红" name="">红</option>
+    <option value="黄" name="">黄</option>
+
+    <option value="绿" name="">绿</option>
+    <option value="橙" name="">橙</option>
+    <option value="青"  name="">青</option>
+    <option value="紫" name="">紫</option>
+
+    </select>
+    </div>
+   
+    <div>
+    <input style="width:320px; font-size:18px" type="text" id="miaoshu" placeholder="衣服描述" name="clothesmaterial"/>
+    </div>衣服图片
+    <input id="tupian" style="width:320px; font-size:18px" type="file" name="file1"/>
+    <div>
+    <input style="width:320px; font-size:18px; background-color:#0FF"  type="submit" value="上传"/>
+    </div>
+    </form>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>登录</title>
+	<link rel="stylesheet" type="text/css" href="css/denglu.css">
+	<script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript">
+	//登录函数
+	function landto(){
+	var username=document.getElementById("username").value;
+	var userpwd=document.getElementById("userpwd").value;
+	land.isUser(username,userpwd);
+	/*
+	if(land.isUser(username,userpwd)==true){
+		//alert("登录成功，现在为你跳转");
+		//window.location.href="index.html";
+		}else{
+			//alert("登录失败");
+		}
+	*/
+	}
+	
+    </script>
+</head>
+<body>
+<div class="bigg">
+	<div class="shang">
+		<div class="yuan"><a href=""><img src="img/denglu/touxiang.jpg" alt=""></a></div>
+	</div><form action="#" method="post">
+	<input id="username" type="text" name="username" placeholder="手机号或者邮箱" size="10">
+	<input id="userpwd" type="password" name="userpwd" placeholder="请输入密码" size="40px"></form>
+	<div class="dengbox">
+		<a  id="adenglu" onclick="landto()"><span>登录</span></a>
+		
+	</div>
+	<div class="zi">
+		<a id="ahelp" href=""><span class="b">需要帮助</span></a>
+		<a id="aregister" href="register.html"><span class="z">立即注册</span></a>
+		
+	</div>
+	<div class="icon">
+		<div class="box">
+			<div class="ii">
+				<a href="">
+					<img src="img/icon/qq.png" alt="">
+				</a>
+			</div>
+			<span>QQ</span>
+		</div>
+		<div class="box">
+			<div class="ii">
+				<a href="">
+					<img src="img/icon/weixin.png" alt="">
+				</a>
+			</div>
+			
+			<span>微信</span>
+		</div>
+		<div class="box">
+			<div class="ii">
+				<a href="">
+					<img src="img/icon/weibo.png" alt="">
+				</a>
+			</div>
+			
+			<span>微博</span>
+		</div>
+	</div>
+</div>
+	
+</body>
+</html>

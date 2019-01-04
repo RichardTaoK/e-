@@ -1,0 +1,224 @@
+body,li,ol,ul,input{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+input{
+	border: 0;
+	outline: none;
+}
+ul,ol,li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+html{
+	font-size: 100px;
+}
+.zzdada{
+	width: 100%;
+	height: auto;
+}
+/* tou */
+	.tou{
+		width: 100%;
+		height: 1rem;
+		background: #ff7d8f;
+		position: relative;
+		border-bottom: 0.01rem #b79da1 solid;
+	}
+	.tou li{
+		position: absolute;
+		top: 50%;
+		margin-top: -0.76rem;
+	}
+	.tou img{
+		width: 0.48rem;
+		height: 0.48rem;
+	}
+	.tou .tou1{
+		left: 0.50rem;
+	}
+	.tou .tou2{
+		right: 0.50rem;
+	}
+	.tou span{
+		color: #313131;
+		font-size: 0.36rem;
+		line-height: 1rem;
+		position: absolute;
+		left: 50%;
+		margin-left: -0.50rem;
+	}
+/* body */
+	.box{
+		width: 100%;
+		height: 15.44rem;
+		background: #fff;
+		position: relative;
+		overflow: hidden;
+	}
+	.box input{
+		width: 	1rem;
+		height: 0.45rem;
+		position: absolute;
+		margin: 0.10rem auto;
+		background: #f8f7f7;
+		border-radius: 0.10rem;
+		line-height: 0.45rem;
+		font-size: 0.24rem;
+		color: #e1dee0;
+		padding-left: 1.83rem;
+		padding-right: 1.83rem;
+		margin-left: 1.27rem;
+	}
+	.soui{
+		width: 0.32rem;
+		height: 0.32rem;
+		position: absolute;
+		left: 2.60rem;
+		top: 0.20rem;
+	}
+	#zi{
+		width: 100%;
+		height: 0.45rem;
+		font-size: 0.30rem;
+		color: #1f1e1e;
+		text-align: center;
+		line-height: 0.45rem;
+		float: left;
+		display: block;
+		clear: both;
+		margin-top: 0.85rem;
+	}
+	.tiao{
+		width: 0.52rem;
+		height: 0.06rem;
+		background: #ff7d8f;
+		margin: -0.80rem auto 0.20rem;
+	}
+
+/* 卡片 */
+	.kapian{
+		width: 100%;
+		height: 0.80rem;
+		position: relative;
+		margin-left: 0.21rem;
+		margin-bottom: 0.35rem;
+	}
+	.kapian li{
+		margin-right: 0.08rem;
+		width: 1.66rem;
+		height: 0.80rem;
+		float: left;
+	}
+	.kapian img{
+		width: 1.66rem;
+		height: 0.80rem;
+	}
+	.zi{
+		
+		/*position: absolute;*/
+		margin-bottom: 0.2rem;
+	}
+	.gang{
+		width: 100%;
+		height: 0.15rem;
+		background: #e8e8e8;
+		margin: 0.10rem auto;
+		margin-top: 0.10rem;
+	}
+	.tiao1{
+		margin-top: 0.60rem;
+	}
+
+/* da */
+	.da{
+		width: 100%;
+		height: 1.63rem;
+		border-top: 0.03rem #000 solid;
+		border-bottom: 0.03rem #000 solid;
+		position: relative;
+		overflow: hidden;
+		/*margin-top: 0.1rem;*/
+	}
+	.da1{
+		background: #233736;
+	}
+	.da2{
+		background: #b27b48;
+	}
+	.da3{
+		background: #b5a808;
+	}
+	.da4{
+		background: #13191f;
+	}
+	.da5{
+		background: #9d7e46;
+	}
+	.da6{
+		background: #486c4b;
+	}
+	.da .daimg{
+		width: 3.21rem;
+		height: 1.63rem;
+		float: left;
+	}
+	.da .dian{
+		width: 3.99rem;
+		height: 1.15rem;
+		position: absolute;
+		top: 50%;
+		margin-left: 3.21rem;
+		margin-top: -1.15rem;
+	}
+	.da .dian li{
+		width: 0.93rem;
+		height: 0.45rem;
+		margin-left: 0.30rem;
+		margin-bottom: 0.25rem;
+		float: left;
+	}
+	.da .dian li img{
+		width: 0.93rem;
+		height: 0.45rem;
+	}
+	.da .dian li .zh7{
+		width: 0.32rem;
+		height: 0.32rem;
+		margin-left: 0.30rem;
+		margin-top: 0.1rem;
+	}
+
+/* bottom */
+	.di{
+		width: 3.61rem;
+		height: 0.60rem;
+		margin: 0 auto;
+		position: relative;
+		margin-top: 0.20rem;
+	}
+	.di span{
+		font-size: 0.30rem;
+		color: #726e6e;
+		float: left;
+		line-height: 0.60rem;
+		text-align: center;
+		margin-left: 0.85rem;
+	}
+	.di img{
+		width: 0.32rem;
+		height: 0.32rem;
+		position: absolute;
+		left: 2.70rem;
+		top: 50%;
+		margin-top: -0.16rem;
+
+	}

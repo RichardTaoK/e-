@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>shengxing2</title>
+	<link rel="stylesheet" href="./css/shengxing2.css">
+	<script type="text/javascript" src="./js/base.js"></script>
+	<script type="text/javascript" src="js/function.js"></script>
+	<script type="text/javascript" src="js/animate.js"></script>
+	<script type="text/javascript">
+	$(function(){
+	var white=$("li",$(".imgAll")[0]);
+	var red=$("span",$(".imgAll")[0]);
+	for(var i=0;i<white.length;i++){
+		white[i].aa=i;
+		white[i].onmouseover=function(){
+			white[this.aa].style.opacity="0.4";
+			red[this.aa].style.display="block";
+		}
+	}
+
+	})
+
+	</script>
+</head>
+<body>
+<div class="All1">
+	<div class="topnav">
+		<ul><a href="shengxing1.html"><img src="./image/return.png" alt="" style="width:0.7rem"></a></ul>
+		<p>外形测试</p>
+		<s></s>
+	</div>
+	<div class="content">
+		<ul class="title"><img src="./image/b_03.png" alt="" style="width:0.87rem;height:0.77rem"></ul>
+		<ul class="imgAll">
+			<li class="image1"><a href=""><img src="./image/b_07.png" alt="" style="width:2.75rem;height:2.94rem;">
+			<span><img src="./image/check.png" alt="" style="width:0.49rem;height:0.49rem;"></span></a></li>
+			<li class="image2"><a href=""><img src="./image/b_09.png" alt="" style="width:2.75rem;height:2.94rem;">
+			<span><img src="./image/check.png" alt="" style="width:0.49rem;height:0.49rem;"></span></a></li>
+			<li class="image3"><a href=""><img src="./image/b_13.png" alt="" style="width:2.75rem;height:2.94rem;">
+			<span><img src="./image/check.png" alt="" style="width:0.49rem;height:0.49rem;"></span></a></li>
+			<li class="image4"><a href=""><img src="./image/b_14.png" alt="" style="width:2.75rem;height:2.94rem;">
+			<span><img src="./image/check.png" alt="" style="width:0.49rem;height:0.49rem;"></span></a></li>
+		
+		</ul>
+		<ul class="btn">
+			<li class="last"><a href="shengxing1.html"><img src="./image/reback.png" alt="" style="width:0.25rem;height:0.35rem"><p>上一步</p></a></li>
+			<li class="next"><a href="shengxing3.html">next</a></li>
+
+		</ul>
+	</div>
+
+</div>
+</body>
+</html>

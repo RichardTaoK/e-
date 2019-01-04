@@ -1,0 +1,157 @@
+html{
+	font-size: 100px;
+}
+img{
+	margin:0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+li,ol,ul,body{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+ul,ol,li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+/* 整个盒子全部内容 begin*/
+/*不包边界的盒子begin*/
+
+#All{
+	width:100%;background:#fff;
+	position: relative;
+	margin:auto;
+}
+.searchBox{
+	width:7.50rem;height:0.88rem;background:#ff7d8f;
+	margin-bottom: 0.14rem;
+	position:relative;
+}
+.searchBox .rebackImg{
+	position:absolute;top:-0.29rem;left:0.18rem;
+}
+.searchBox>input{
+	width:2.80rem;height:0.40rem;
+	position:absolute;top:0.25rem;left:2.22rem;
+	border-radius:0.07rem;
+	border:none;
+}
+.searchBox .searchImg{
+	position:absolute;top:-0.29rem;left:4.62rem;
+}
+.searchBox .photoImg{
+	position:absolute;top:-0.3rem;right:0.28rem;
+}
+.searchBox .shaiImg{
+	position:absolute;top:-0.3rem;right:1.16rem;
+}
+/*购物栏盒子begin*/
+.Box{
+	width:7.24rem;height:15.44rem;background: #fff;
+	margin-top:0.9rem;
+	position: absolute;top:0.18rem;left:0.18rem;
+	overflow: hidden;
+}
+.shopBox{
+	width:100%;height:7.05rem;
+}
+.shopTop{
+	width:100%;height:3.48rem;border-bottom: 0.01rem solid #ccc;
+	position: relative;
+	margin-bottom:0.10rem;
+}
+.shopTop>li{
+	float:left;
+}
+.shopTop .shopImg1{
+	position:absolute;top:0.36rem;left:0;
+}
+.shopTop .shopImg2{
+	position:absolute;top:0.36rem;left:1.83rem;
+}
+.shopTop .shopImg3{
+	position:absolute;top:0.05rem;left:3.70rem;
+}
+.shopTop .shopImg4{
+	position:absolute;top:0.36rem;left:5.28rem;
+}
+.shopTop .shugang1{
+	width:0.01rem;height:2.90rem;background:#ccc;
+	position: absolute;top:0.36rem;left:1.74rem;
+}
+.shopTop .shugang2{
+	width:0.01rem;height:2.90rem;background:#ccc;
+	position: absolute;top:0.36rem;left:5.18rem;
+}
+.shopTop .shopTitle1{
+	font:normal 0.28rem "微软雅黑";color:#ff7d8f;
+	position: absolute;top:-0.30rem;left:1.74rem;
+}
+.shopTop .shopTitle2{
+	font:normal 0.28rem "微软雅黑";color:#ff7d8f;
+	position: absolute;top:-0.30rem;left:5.18rem;
+}
+/*购物栏盒子over*/
+/*最潮搭配fashion begin*/
+.fashionBox{
+	width:100%;height:8.25rem;
+	position: relative;
+}
+.fashionBox>s{
+	width:0.09rem;height:0.30rem;background:#ff7d8f; 
+	position: absolute;top:0.10rem;left:0;
+}
+.fashionBox>p{
+	font:normal 0.24rem "微软雅黑";color:#141414;
+	position: relative;top:0.08rem;left:0.20rem;
+}
+.fashionBox>ul{
+	width:100%;height:2.23rem;
+	padding-bottom: 0.15rem;
+	border-bottom: 0.01rem solid #ccc;
+	position: relative;
+	
+}
+.fashionBox .fashionImg{
+	position:absolute;top:0.12rem;left:0;
+}
+.fashionBox .new{
+	width:0.5rem;
+	position:absolute;top:-0.31rem;left:2.15rem;
+}
+.fashionBox .titleAll{
+	width:3.86rem;height:2.13rem;
+	position: absolute;top:-0.0.22rem;right:0.42rem;
+}
+.fashionBox>ul p{
+	font:normal 0.24rem "微软雅黑";color:#141414;
+
+}
+.fashionBox>ul p span{
+	font:normal 0.20rem "微软雅黑";color:#ccc;
+	
+}
+.fashionBox .like{
+	position: absolute;bottom: -0.3rem;left:0;
+
+}
+.fashionBox .like>span{
+	color:#ff7d8f;font:normal 0.18rem "微软雅黑"; 
+	position: relative;bottom: 0.10rem;left:0.10rem;
+}
+.fashionBox .talk{
+	position: absolute;bottom: -0.32rem;left:1.42rem;
+}
+.fashionBox .talk>span{
+	color:#ff7d8f;font:normal 0.18rem "微软雅黑"; 
+	position: relative;bottom: 0.10rem;left:0.10rem;
+}
+/*最潮搭配fashion over*/
+
+/*不包边界的盒子over*/
+/* 整个盒子全部内容over*/

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>shengxing5</title>
+	<link rel="stylesheet" href="./css/shengxing5.css">
+	<script type="text/javascript" src="./js/base.js"></script>
+	<script type="text/javascript" src="js/function.js"></script>
+	<script type="text/javascript" src="js/animate.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		// 左边盒子
+	var whitel=$("li",$(".imgAll_L")[0]);
+	var redl=$("span",$(".imgAll_L")[0]);
+	for(var i=0;i<whitel.length;i++){
+		whitel[i].aa=i;
+		whitel[i].onmouseover=function(){
+			whitel[this.aa].style.opacity="0.4";
+			redl[this.aa].style.display="block";
+		}
+	}
+	// 右边盒子
+	var whiter=$("li",$(".imgAll_R")[0]);
+	var redr=$("span",$(".imgAll_R")[0]);
+	for(var i=0;i<whiter.length;i++){
+		whiter[i].aa=i;
+		whiter[i].onmouseover=function(){
+			whiter[this.aa].style.opacity="0.4";
+			redr[this.aa].style.display="block";
+		}
+	}
+
+	})
+
+	</script>
+</head>
+<body>
+<div class="All1">
+	<div class="topnav">
+		<ul><a href="shengxing4.html"><img src="./image/return.png" alt="" style="width:0.7rem"></a></ul>
+		<p>外形测试</p>
+		<s></s>
+	</div>
+	<div class="content">
+		<ul class="title"><img src="./image/e_03.png" alt="" style="height:0.87rem"></ul>
+		<ul class="imgAll_L">
+			<li class="image1"><a href=""><img src="./image/e_07.png" alt="" style="width:1.82rem;height:2.15rem;">
+			<span><img src="./image/check.png" alt="" style="width:0.49rem;height:0.49rem;"></span></a></li>
+			<li class="image2"><a href=""><img src="./image/e_17.png" alt="" style="width:1.82rem;height:2.15rem;">
+			<span><img src="./image/check.png" alt="" style="width:0.49rem;height:0.49rem;"></span></a></li>
+			<li class="image3"><a href=""><img src="./image/e_13.png" alt="" style="width:1.82rem;height:2.15rem;">
+			<span><img src="./image/check.png" alt="" style="width:0.49rem;height:0.49rem;"></span></a></li>
+		</ul>
+		<ul class="imgAll_R">
+			<li class="image1"><a href=""><img src="./image/e_09.png" alt="" style="width:1.52rem;height:2.15rem;">
+			<span><img src="./image/check.png" alt="" style="width:0.49rem;height:0.49rem;"></span></a></li>
+			<li class="image2"><a href=""><img src="./image/e_14.png" alt="" style="width:1.52rem;height:2.15rem;">
+			<span><img src="./image/check.png" alt="" style="width:0.49rem;height:0.49rem;"></span></a></li>
+			<li class="image3"><a href=""><img src="./image/e_18.png" alt="" style="width:1.52rem;height:2.15rem;">
+			<span><img src="./image/check.png" alt="" style="width:0.49rem;height:0.49rem;"></span></a></li>
+		</ul>
+		<ul class="btn">
+			<li class="last"><a href="shengxing4.html"><img src="./image/reback.png" alt="" style="width:0.25rem;height:0.35rem"><p>上一步</p></a></li>
+			<li class="next"><a href="shengxing6.html">next</a></li>
+
+		</ul>
+	</div>
+
+</div>
+</body>
+</html>

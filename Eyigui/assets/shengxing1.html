@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>shengxing1</title>
+	<link rel="stylesheet" href="./css/shengxing1.css">
+	<script type="text/javascript" src="./js/base.js"></script>
+	<script type="text/javascript" src="js/function.js"></script>
+	<script type="text/javascript" src="js/animate.js"></script>
+	<script type="text/javascript">
+	$(function(){
+	var white=$("li",$(".imgAll")[0]);
+	var red=$("span",$(".imgAll")[0]);
+	for(var i=0;i<white.length;i++){
+		white[i].aa=i;
+		white[i].onmouseover=function(){
+			white[this.aa].style.opacity="0.4";
+			red[this.aa].style.display="block";
+		}
+	}
+
+	})
+
+	</script>
+</head>
+<body>
+<div class="All1">
+	<div class="topnav">
+		<ul><a href="index.html"><img src="./image/return.png" alt="" style="width:0.7rem"></a></ul>
+		<p>外形测试</p>
+		<s></s>
+	</div>
+	<div class="content">
+		<ul class="title"><img src="./image/a_01.png" alt="" style="width:0.87rem;height:0.77rem"></ul>
+		<ul class="imgAll">
+			<li class="image1"><a href=""><img src="./image/a_09.png" alt="" style="width:3.42rem;height:2.93rem;">
+			<span><img src="./image/check.png" alt="" style="width:0.49rem;height:0.49rem;"></span></a></li>
+			<li class="image2"><a href=""><img src="./image/a_03.png" alt="" style="width:3.42rem;height:2.93rem;">
+			<span><img src="./image/check.png" alt="" style="width:0.49rem;height:0.49rem;"></span></a></li>
+			<li class="image3"><a href=""><img src="./image/a_05.png" alt="" style="width:3.42rem;height:2.93rem;">
+			<span><img src="./image/check.png" alt="" style="width:0.49rem;height:0.49rem;"></span></a></li>
+			<li class="image4"><a href=""><img src="./image/a1_07.png" alt="" style="width:3.42rem;height:2.93rem;">
+			<span><img src="./image/check.png" alt="" style="width:0.49rem;height:0.49rem;"></span></a></li>
+			<li class="image5"><a href=""><img src="./image/a_10.png" alt="" style="width:3.42rem;height:2.93rem;">
+			<span><img src="./image/check.png" alt="" style="width:0.49rem;height:0.49rem;"></span></a></li>
+		</ul>
+		<ul class="next"><a href="shengxing2.html">next</a></ul>
+	</div>
+
+</div>
+</div>
+</body>
+</html>

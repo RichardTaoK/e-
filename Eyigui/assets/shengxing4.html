@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>shengxing4</title>
+	<link rel="stylesheet" href="./css/shengxing4.css">
+	<script type="text/javascript" src="js/base.js"></script>
+	<script type="text/javascript" src="js/function.js"></script>
+	<script type="text/javascript" src="js/animate.js"></script>
+
+	<script type="text/javascript">
+	$(function(){
+
+	var imgs=$("a",$(".bigImg")[0]);
+	for(var i=0;i<imgs.length;i++){
+		imgs[i].aa=i
+		imgs[i].onmouseover=function(){
+			imgs[this.aa].style.opacity="1";
+		}
+	}
+
+	})
+
+	</script>
+</head>
+<body>
+<div class="All1">
+	<div class="topnav">
+		<ul><a href="shengxing3.html"><img src="./image/return.png" alt="" style="width:0.8rem"></a></ul>
+		<p>外形测试</p>
+		<s></s>
+	</div>
+	<div class="content">
+		<ul class="title"><img src="./image/d_03.png" alt="" style="height:0.77rem"></ul>
+		<ul class="bigImg">
+			<img src="./image/d_07.png" style="width:6.37rem;height:6.77rem" alt="">
+			<a href="" class="a1"></a>
+			<a href="" class="a2"></a>
+			<a href="" class="a3"></a>
+			<a href="" class="a4"></a>
+			<a href="" class="a5"></a>
+			<a href="" class="a6"></a>
+			<a href="" class="a7"></a>
+			<a href="" class="a8"></a>
+			<a href="" class="a9"></a>
+		</ul>
+		<ul class="btn">
+			<li class="last"><a href="shengxing3.html"><img src="./image/reback.png" alt="" style="width:0.25rem;height:0.35rem"><p>上一步</p></a></li>
+			<li class="next"><a href="shengxing5.html">next</a></li>
+		</ul>
+	</div>
+	
+</div>
+</body>
+
+</html>

@@ -1,0 +1,413 @@
+li,ol,ul,body{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+ul,ol,li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+input{
+	border: 0;
+	outline: none;
+}
+html{
+	font-size: 100px;
+}
+
+/* 导航开始 */
+	.center{
+		height: 1rem;
+		width: 100%;
+		position: relative;
+		background: #ff7d8f;
+	}
+	
+	.icon1{
+		width: 0.48rem;
+		height: 0.48rem;
+		position: absolute;
+		top: -30%;
+		left: 10%;
+	}
+	
+	.icon2{
+		width: 0.48rem;
+		height: 0.48rem;
+		position: absolute;
+		top: -30%;
+		right: 10%;
+	}
+	.center .input{
+		width: 5.5rem;
+		height: 0.48rem;
+		position: absolute;
+		left: 19%;
+		top: 22%;
+		line-height:0.48rem;
+		font-size: 0.2rem;
+		color: #ccc;
+		opacity: 0.5;
+		z-index: 10;
+		display: none;
+		background:#ff7d8f;
+	}
+	
+	.center .s1,.s2{
+		width: 1.67rem;
+		height: 0.90rem;
+		line-height: 1rem;
+		font-size: 0.36rem;
+		color: #20201f;
+		display: block;
+		position: absolute;
+	}
+	.s1{
+		left: 50%;
+		margin-left: -1.67rem;
+		text-align: center; 
+	}
+	.s2{
+		left: 50%;
+		margin-left: 0.2rem;
+		text-align: center;
+	}
+	.center .bu{
+		width: 100%;
+		height: 0.04rem;
+		background: #fff;
+		position: absolute;
+		bottom: 0;
+	}
+	/* .center .box{
+		width: 167rem;
+		height: 11rem;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		margin-left: -150rem;
+		background: #87c8db;
+	} */
+/* end */
+	.linkk{
+		width: 100%;
+		/*height: 12rem;*/
+		overflow: hidden;
+	}
+	.button1{
+		height: 16rem;
+	}
+	.button2{
+		height: 18rem;
+		display: none;
+	}
+/* banner  start */
+	.bannerbox{
+		width: 100%;
+		height: 3.67rem;
+		position: relative;
+	}
+	.bannerbox .wheel{
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+
+	}
+	.wheel .imgbox{
+		width: 30rem;
+		height: 100%;
+		position: relative;
+	}
+	.wheel .imgbox div{
+		width: auto;
+		height: 100%;
+		float: left;
+	}
+	.wheel .imgbox img{
+		position: absolute;
+		width: auto;
+		height: 100%;
+	}
+	.wheel .list{
+		width: 100%;
+		height: 0.2rem;
+		margin:0 auto;
+		position: absolute;
+		bottom: 0.2rem;
+		z-index: 9;
+		left: 50%;
+		margin-left: -1rem;
+
+	}
+	.wheel .list li{
+		width: 0.20rem;
+		height: 0.20rem;
+		opacity: 0.7;
+		background: #fff;
+		border:0.03rem #b498c5 solid;
+		border-radius: 50%;
+		margin: 0 0.1rem;
+		float: left;
+	}
+/* banner end */
+
+
+/* zhong start */
+	.zhongbox{
+		width: 100%;
+		height: 2.10rem;
+		position: relative;
+		background: #fff;
+	}
+	.zhongbox .zhong{
+		width: 95%;
+		height: 100%;
+		margin:0 auto;
+	}
+	.zhong .iconn{
+		width: 33.33%;
+		height: 100%;
+		float: left;
+	}
+	.zhong .iconn .img-box{
+		width: 100%;
+		height: 1.59rem;
+	}
+	.zhong .iconn img{
+		width: 1.20rem;
+		height: 1.20rem;
+		margin-left: 23%;
+		margin-top: 0.20rem;
+	}
+	.zhong .iconn span{
+		margin-left: 11%;
+		position: absolute;
+		bottom: 0.15rem;
+		font-size: 0.24rem;
+	}
+	/* end */
+/* xian */
+	.xian{
+		width: 100%;
+		/*height: 2rem;*/
+		/*background:#d4d4d4;*/
+		border: 0.01rem #d4d4d4 dashed;
+	}
+/* fashion */
+	.fashion1{
+		width: 100%;
+		height: 0.75rem;
+		position: relative;
+	}
+	.fashion1 .qian{
+		width: 0.10rem;
+		height: 0.25rem;
+		background: #ff7d8f;
+		position: absolute;
+		margin:0.25rem 0.40rem;
+	}
+	.fashion1 .fbox{
+		width: 1rem;
+		height: 100%;
+		position: absolute;
+		line-height: 0.75rem;
+		font-size: 0.3rem;
+		margin: 0 0.7rem;
+		color: #353434;
+
+	}
+	.bigbox{
+		width: 100%;
+		height: 9rem;
+		background: #eee;
+		position: relative;
+	}
+	.bigbox .tu{
+		width: 95%;
+		height: 3.81rem;
+		border-radius: 0.10rem;
+		overflow: hidden;
+		float: left;
+		margin:0 2.6%;
+		margin-bottom: 0.10rem;
+	}
+	.bigbox .tu img{
+		width: 100%;
+		height: 3.81rem;
+	}
+	/* end */
+/* dibu */
+	.dibox{
+		width: 100%;
+		height: 1rem;
+		background: #fff;
+		position: fixed;
+		bottom: 0;
+	}
+	.dibox .di{
+		width: 100%;
+		height: 1.30rem;
+		position:absolute;
+		bottom: -0.10rem;
+	}
+	.dibox .di img{
+		width: 100%;
+		height: 100%;
+	}
+	.dibox img{
+		width: 0.60rem;
+		height: 0.60rem;
+		position: absolute;
+		top: -0.05rem;
+	}
+	.dibox .aa{
+		margin-left: 0.43rem;
+	}
+	.dibox .bb{
+		left: 1.86rem;
+	}
+	.dibox .cc{
+		left: 5.0rem;
+	}
+	.dibox .dd{
+		left: 6.53rem;
+	}
+	.dibox .mm{
+		width: 1rem;
+		height: 1rem;
+		left: 3.26rem;
+		top: -0.15rem;
+	}
+
+
+/*pingdao*/
+	.tou{
+		width: 100%;
+		height: 3.02rem;
+		margin: 0 auto;
+
+	}
+	.tou img{
+		width: 100%;
+		height: 100%;
+	}
+	.soucang{
+		width: 2.29rem;
+		height: 0.64rem;
+		float: right;
+		position: relative;
+	}
+	.soucang a{
+		float: left;
+		position: absolute;
+		margin: auto auto;
+		vertical-align: middle;
+		top: -0.59rem;
+
+	}
+	.soucang img{
+		width: 0.36rem;
+		height: 0.36rem;
+	}
+	.soucang .a1{
+		left: 0.10rem;
+	}
+	.soucang .a2{
+		left: 1.30rem;
+	}
+	.soucang span{
+		line-height: 0.64rem;
+		font-size: 0.12rem;
+	}
+
+
+	.fashion{
+		width: 100%;
+		height: 2.50rem;
+		margin-bottom: 0.25rem;
+		margin-top: 0.10rem;
+		overflow: hidden;
+	}
+	.fashion img{
+		width: 100%;
+		height: 2.50rem;
+	}
+
+
+/* 遮罩 */
+	.an{
+		width: 7.20rem;
+		height: 15rem;
+		background: #000;
+		opacity: 0.84;
+		display: none;
+		position: absolute;
+		top: 0;
+		z-index: 100;
+	}
+	.an .ccc{
+		width: 7.20rem;
+		height: 2rem;
+		/*background: yellow;*/
+		bottom: 15%;
+		position: absolute;
+	}
+	 .an .c1{
+		width: 2rem;
+		height: 2rem;
+		margin: 0 auto;
+		position: absolute;
+		left: 50%;
+	}
+	.an .c2{
+		margin-left: -2rem;
+	
+	}
+	.an .ccc img{
+		width: 1.60rem;
+		height: 1.60rem;
+	}
+	.an .c3{
+		margin-left: 0.40rem;
+	}
+	.an .zi{
+		margin: 0 auto;
+		width: 2rem;
+		height: 0.40rem;
+		/*position: absolute;*/
+		/*bottom: 0;*/
+	}
+	.an .zi span{
+		color: #fff;
+		font-size: 0.30rem;
+		line-height: 0.40rem;
+		text-align: center;
+	}
+	.an .quxiao{
+		margin: 0 auto;
+		position: absolute;
+		bottom: 0.10rem; 
+	} 
+	.an .quxiao img{
+		width: 1rem;
+		height: 1rem;
+		position: absolute;
+		bottom: 0.40rem;
+		/*left:50%;*/
+		/*margin: 0 auto;*/
+		margin-left:3.10rem;
+	}
+
+
+
+
+
+
+
